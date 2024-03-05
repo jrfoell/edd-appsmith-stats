@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 2380,
           "useAutoLayout": true,
           "parentColumnSpace": 1,
@@ -85,14 +85,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "MRR and Growth_ExistingMRRbyMo",
-              "name": "ExistingMRRbyMo",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "MRR and Growth_NewMRRbyMo",
               "name": "NewMRRbyMo",
               "confirmBeforeExecute": false,
@@ -103,6 +95,16 @@
             {
               "id": "MRR and Growth_VoluntaryChurnbyMo",
               "name": "VoluntaryChurnbyMo",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "MRR and Growth_ExistingMRRbyMo",
+              "name": "ExistingMRRbyMo",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

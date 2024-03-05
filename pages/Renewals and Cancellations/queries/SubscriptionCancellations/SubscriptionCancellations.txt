@@ -7,8 +7,6 @@ WHERE
 	expiration >= DATE_SUB(NOW(), INTERVAL 4 YEAR)
 	AND expiration <= NOW()
 	AND status IN ( 'cancelled', 'failing' )
-GROUP BY 
-  MONTH(expiration), 
-  YEAR(expiration)
+GROUP BY x
 ORDER BY 
   MIN(expiration)
