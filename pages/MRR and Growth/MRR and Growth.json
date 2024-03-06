@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2528,
+          "bottomRow": 2448,
           "containerStyle": "none",
           "snapRows": 114,
           "parentRowSpace": 1,
@@ -85,6 +85,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "MRR and Growth_ExistingMRRbyMo",
+              "name": "ExistingMRRbyMo",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "MRR and Growth_NewMRRbyMo",
               "name": "NewMRRbyMo",
               "confirmBeforeExecute": false,
@@ -95,16 +103,6 @@
             {
               "id": "MRR and Growth_VoluntaryChurnbyMo",
               "name": "VoluntaryChurnbyMo",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "MRR and Growth_ExistingMRRbyMo",
-              "name": "ExistingMRRbyMo",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

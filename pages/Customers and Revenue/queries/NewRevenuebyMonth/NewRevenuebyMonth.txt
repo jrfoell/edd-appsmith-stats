@@ -5,8 +5,6 @@ FROM
   wp_edd_orders
 WHERE
 	date_created >= DATE_SUB(NOW(), INTERVAL 4 YEAR) AND status = 'complete'
-GROUP BY 
-  MONTH(date_created), 
-  YEAR(date_created)
+GROUP BY x
 ORDER BY 
   MIN(date_created)
