@@ -11,7 +11,7 @@
         "visualisations"
     ],
     "topRow": 55.60000000000001,
-    "bottomRow": 91.60000000000001,
+    "bottomRow": 91.60000000000002,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -170,7 +170,7 @@
         ]}
     },
     "key": "h0ttxkeez6",
-    "showDataPointLabel": false,
+    "showDataPointLabel": true,
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,

@@ -5,8 +5,8 @@
     "isCanvas": true,
     "displayName": "Stats Box",
     "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-    "topRow": 5.6000000000000005,
-    "bottomRow": 17.200000000000003,
+    "topRow": 42.800000000000004,
+    "bottomRow": 54.400000000000006,
     "parentRowSpace": 10,
     "type": "STATBOX_WIDGET",
     "hideCard": false,
@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 16.546875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 32,
     "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "widgetName": "Canvas1",
@@ -59,7 +59,7 @@
     "flexVerticalAlignment": "end",
     "backgroundColor": "white",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "hnnium6jyt",
     "isVisible": true,
@@ -71,6 +71,6 @@
     "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 24,
-    "alignment": "center",
+    "alignment": "start",
     "minDynamicHeight": 14
 }

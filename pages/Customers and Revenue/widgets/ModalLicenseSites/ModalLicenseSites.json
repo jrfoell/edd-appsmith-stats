@@ -30,7 +30,7 @@
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 490,
+        "bottomRow": 450,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -73,7 +73,7 @@
         ]
     }],
     "key": "snjil5kue3",
-    "height": 498,
+    "height": 454,
     "isDeprecated": false,
     "rightColumn": 32,
     "detachFromLayout": true,

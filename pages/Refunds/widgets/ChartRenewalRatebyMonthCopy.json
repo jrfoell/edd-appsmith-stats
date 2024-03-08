@@ -23,7 +23,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 20.484375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 32,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -170,7 +170,7 @@
         ]}
     },
     "key": "h0ttxkeez6",
-    "showDataPointLabel": false,
+    "showDataPointLabel": true,
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -191,5 +191,5 @@
     "xAxisName": "Month of purchase",
     "originalBottomRow": 46,
     "chartType": "LINE_CHART",
-    "alignment": "center"
+    "alignment": "start"
 }
